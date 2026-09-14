@@ -123,7 +123,7 @@ article {
 
 article h2 {
   color: var(--destaque);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 article#video .video-container {
@@ -176,6 +176,37 @@ article#video .video-container {
 #skill-container .progresso {
   height: 100%;
   background-color: var(--destaque-inverso);
+}
+
+#formacao-container {
+  display:flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+#formacao-container .curso {
+  background-color: var(--fundo-principal);
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque-inverso);
+  padding-left: 15px;
+}
+
+#formacao-container .periodo {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--texto);
+}
+
+#formacao-container .instituçao {
+  font-size: 1.1em;
+  color: var(--destaque-inverso);
+}
+
+#formacao-container .curso:hover {
+  border-left-width: 15px;
+  transition: border-width 0.5s, border-color 0.8s;
+  border-color: var(--destaque);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
