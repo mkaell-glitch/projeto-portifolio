@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
-<body>
+<body class="escuro">
     <header>
         <nav id="menu">
             <ul>
@@ -16,7 +16,7 @@
                 <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
                 <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
                 <li><a href="#projetos" class="link"><i class="fa-regular fa-map"></i></a></li>
-                <li><a href="#" id="botao-tema"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
+                <li><a href="#" class="link" id="botao-tema"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -42,56 +42,64 @@
                 <h2><i class="fa-solid fa-brain"></i> minhas skills</h2>
                 <div id="skill-container">
 
-                    <div class="info"> <!--habilidade 1-->
-                        <span class="nome">
-                            HTML5 <i class="fa-solid fa-code"></i>
-                        </span>
-                        <span class="porcent">
-                            90%
-                        </span>
-                    </div>
-                    <div class="barra">
-                        <div class="progresso" style="width: 90%;">
+                    <div class="item">
+                        <div class="info"> <!--habilidade 1-->
+                            <span class="nome">
+                                HTML5 <i class="fa-solid fa-code"></i>
+                            </span>
+                            <span class="porcent">
+                                90%
+                            </span>
                         </div>
-                    </div> 
-
-                    <div class="info"> <!--habilidade 2-->
-                        <span class="nome">
-                            CSS3 <i class="fa-solid fa-code"></i>
-                        </span>
-                        <span class="porcent">
-                            85%
-                        </span>
-                    </div>
-                    <div class="barra">
-                        <div class="progresso" style="width: 85%;">
+                        <div class="barra">
+                            <div class="progresso" style="width: 90%;">
+                            </div>
                         </div>
                     </div>
 
-                    <div class="info"> <!--habilidade 3-->
-                        <span class="nome">
-                            comunicaçao <i class="fa-solid fa-person"></i>
-                        </span>
-                        <span class="porcent">
-                            78%
-                        </span>
-                    </div>
-                    <div class="barra">
-                        <div class="progresso" style="width: 78%;">
+                    <div class="item">
+                        <div class="info"> <!--habilidade 2-->
+                            <span class="nome">
+                                CSS3 <i class="fa-solid fa-code"></i>
+                            </span>
+                            <span class="porcent">
+                                85%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 85%;">
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="info"> <!--habilidade 4-->
-                        <span class="nome">
-                            liderança<i class="fa-solid fa-code"></i>
-                        </span>
-                        <span class="porcent">
-                            95%
-                        </span>
-                    </div>
-                    <div class="barra">
-                        <div class="progresso" style="width: 95%;">
+                    <div class="item">
+                        <div class="info"> <!--habilidade 3-->
+                            <span class="nome">
+                                comunicaçao <i class="fa-solid fa-person"></i>
+                            </span>
+                            <span class="porcent">
+                                78%
+                            </span>
                         </div>
-                    </div> 
+                        <div class="barra">
+                            <div class="progresso" style="width: 78%;">
+                        </div>
+                    </div>
+
+                    <div class="item2">
+                        <div class="info"> <!--habilidade 4-->
+                            <span class="nome">
+                                liderança <i class="fa-solid fa-person"></i>
+                            </span>
+                            <span class="porcent">
+                                95%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 95%;">
+                            </div>
+                        </div>
+                    </div>
 
             </article> <!--fim article skills-->
             <article id="formacao"> 
@@ -133,7 +141,7 @@
                     </div>
 
                     <div class="projeto"> <!--projeto 2-->
-                        <img src="imagens/projeto-02-cordel.jpg" alt="projeto 2" class=foto>
+                        <img src="imagens/projeto-02-cordel.jpg" alt="projeto 2" class=foto >
                         <div class="projeto-info">
                             <p class="periodo">2026</p>
                             <h3 class="titulo">projeto cordel</h3>
